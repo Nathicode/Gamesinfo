@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    bogrder: 2px solid white;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #171A21;
+}
+.top {
+    background-color: #131418;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: #171A21;
+    justify-content: center;
+    border-radius: 5px;
+}
+.ico {
+    display: flex;
+    align-items: center;
+}
+.searchbar input {
+    width: 90%;
+    outline: none;
+    background-color: #171A21;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+}
+.searchbar:hover {
+    box-shadow: 0 0 10px whitesmoke;
+}
+.logo {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: .7cm;
+    color: white;
+}
+.cards {
+    width: 50%;
+    background-color: #131418;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    
+}
+.cards p {
+    padding: 10px;
+}
+.cards img {
+    width: 100%;
+    height: ;
+    object-fit: fill;
+}
+@media (min-width: 700px){
+    .logo {
+        font-size: larger;
+    }
+    .cards {
+        width: 30%;
+    }
+}
+span {
+    cursor: default;
+}
+#title, #price {
+    background-color: #171A21;
+}
